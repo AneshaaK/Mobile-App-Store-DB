@@ -84,6 +84,4 @@ A strong app store needs solid robust support for Developers and end-users to ad
 - Create a Web UI for the end-users (Developers) and also for internal company users (Finance, Revenue, Sales, Marketing, Operations departments)
 
 ## Contributors
-Aneshaa Kasula
-Viritha Vanama
-Vishwas Kumar
+Aneshaa Kasula,  Viritha Vanama and Vishwas Kumar
