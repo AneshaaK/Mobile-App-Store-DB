@@ -74,3 +74,11 @@ SQL Code is
 
 - APP STORE IN-APP PURCHASES BASED ON CATEGORY
  ![image](https://user-images.githubusercontent.com/131211098/235269834-8e38a69c-3d55-4e02-8b55-496be0034d94.png)
+
+## Summary & Conclusion
+A strong app store needs solid robust support for Developers and end-users to adapt, improvise and evolve continuously. A well-designed database helps understand the behavior of the users and the ratings provide insights that help drive the strategic vision of the company. The database built to support this app store as part of this project facilitates efficiently achieving the desired objectives,  by keeping the total cost of ownership to a minimum. 
+
+## Future Work
+- The project can be expanded to implement financial transactions, user-level App engagement time, app-level ad data
+- Consideration of migrating the on-prem APP STORE to cloud using the following reference for elastic infrastructure https://cloud.google.com/architecture/migrating-mysql-to-cloudsql-using-automated-migration-workflow-tutorial 
+- Create a Web UI for the end-users (Developers) and also for internal company users (Finance, Revenue, Sales, Marketing, Operations departments)
