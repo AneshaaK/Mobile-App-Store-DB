@@ -22,16 +22,31 @@ Data that could be retrieved from the App store:
   - DBMS Selection: MySQL RDBMS
   - Logical Design: data model independent of physical level details and create a data dictionary to store metadata
   - Physical Design:
-3. Implementation and Loading data 
-4. Testing And Evaluation
-5. Summary & Conclusion
-6. Future Work
+3. Implementation: Installation of the MySQL Relational DBMS in Windows Laptop
+  - Downloaded Installer from url https://dev.mysql.com/downloads/mysql/
+  - Use the Custom Setup option and select the Latest available versions for Server and Workbench
+  - Standalone Server
+  - Create root password
+  - We have also installed POPSQL which is a GUI to MYSQL for better visualization
+4. Schema creation, Data loading & Conversion
+  - Create a database 
+  - Create 1-side tables first (Category, Developer, User)
+  - Create M-side tables (Application, review, Download)
+  - Import data to each table using CSV files from MYSQL workbench (load data into 1-side followed by M-side tables)
+  - Create views for end-users and stored procedures
+5. Testing And Evaluation
+  - Structural testing (Test all the tables for Entity and Referential Integrity, mandatory fileds not null, Constraints, defalut values check)
+  - Testing views and stored procedures
 
+## Images
 ### Data Dictionary
 <img src="https://user-images.githubusercontent.com/131211098/235268569-74135bf7-5fde-4778-bea5-07811aa530e4.png" width="600" height="500">
 
 ### DB Designs
 <table>
+
+#### Note: 
+SQL Code is 
   <tr>
     <td>Conceptual ER Diagram</td>
      <td>Logical ER Diagram</td>
