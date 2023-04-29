@@ -1,0 +1,9 @@
+# REVIEW VIEW: It has Application Name, Category, and Total number of reviews per Application information.
+CREATE VIEW REVIEW_VIEW AS (
+	SELECT APP_NAME, 
+	CATEGORY, 
+	COUNT(REVIEW_DATE) AS REVIEWS
+	FROM APPLICATION 
+	JOIN REVIEW USING (APP_ID) 
+	JOIN CATEGORY USING (CATEGORY_CODE)
+	GROUP BY APP_ID);
