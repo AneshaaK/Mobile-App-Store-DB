@@ -82,3 +82,8 @@ A strong app store needs solid robust support for Developers and end-users to ad
 - The project can be expanded to implement financial transactions, user-level App engagement time, app-level ad data
 - Consideration of migrating the on-prem APP STORE to cloud using the following reference for elastic infrastructure https://cloud.google.com/architecture/migrating-mysql-to-cloudsql-using-automated-migration-workflow-tutorial 
 - Create a Web UI for the end-users (Developers) and also for internal company users (Finance, Revenue, Sales, Marketing, Operations departments)
+
+## Contributors
+Aneshaa Kasula
+Viritha Vanama
+Vishwas Kumar
